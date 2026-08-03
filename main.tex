@@ -1,0 +1,157 @@
+% Fictional freshman resume example for educational use
+% Template: Jake's Resume by Jake Gutierrez
+% Based on: https://github.com/sb2nov/resume
+% License: MIT
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% This banner makes it impossible to mistake the resource for a real person.
+\begin{center}
+  \small\textbf{SAMPLE COLLEGE FRESHMAN RESUME}
+\end{center}
+\vspace{-9pt}
+
+\begin{center}
+  \textbf{\Huge \scshape Alex Carter} \\ \vspace{1pt}
+  \small (000) 000-0000 $|$
+  \href{mailto:alex.carter@email.com}{\underline{alex.carter@email.com}} $|$
+  \href{https://linkedin.com/in/alexcarter}{\underline{linkedin.com/in/alexcarter}} $|$
+  \href{https://github.com/alexcarter}{\underline{github.com/alexcarter}}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Georgia Institute of Technology}{Atlanta, GA}
+    {Bachelor of Science in Computer Science; GPA: 3.7/4.0}{Aug. 2026 -- May 2030}
+  \resumeItemListStart
+    \resumeItem{Relevant Coursework: Introduction to Computing, Calculus I}
+  \resumeItemListEnd
+  \resumeSubheading
+    {Northview High School}{Johns Creek, GA}
+    {High School Diploma; GPA: 3.8/4.0}{Aug. 2022 -- May 2026}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Grocery Associate}{June 2025 -- Aug. 2026}
+    {Fresh Market Grocery}{Johns Creek, GA}
+  \resumeItemListStart
+    \resumeItem{Assisted 50+ customers per shift while restocking products and maintaining accurate shelf labels}
+    \resumeItem{Trained 3 new employees on checkout procedures, store organization, and customer service standards}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Volunteer Tutor}{Sep. 2024 -- May 2026}
+    {Northview Peer Tutoring Program}{Johns Creek, GA}
+  \resumeItemListStart
+    \resumeItem{Tutored 8 students in Algebra and Precalculus through weekly one-on-one review sessions}
+    \resumeItem{Created practice worksheets that helped students prepare for quizzes and semester exams}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{College Expense Tracker} $|$ \emph{Python, pandas, Matplotlib}}{July 2026}
+  \resumeItemListStart
+    \resumeItem{Built a Python program that categorizes expenses from a CSV file and calculates monthly spending totals}
+    \resumeItem{Created bar charts to compare spending across food, transportation, school, and entertainment categories}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Personal Portfolio Website} $|$ \emph{HTML, CSS, GitHub Pages}}{May 2026}
+  \resumeItemListStart
+    \resumeItem{Designed and published a responsive website featuring projects, campus involvement, and contact information}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Leadership \& Involvement}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Member}{Aug. 2026 -- Present}
+    {Georgia Tech Data Science Club}{Atlanta, GA}
+  \resumeItemListStart
+    \resumeItem{Attend technical workshops and collaborate with other students on beginner data-analysis activities}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Treasurer}{Aug. 2025 -- May 2026}
+    {Northview Coding Club}{Johns Creek, GA}
+  \resumeItemListStart
+    \resumeItem{Managed a \$600 annual budget and organized purchasing for 4 workshops serving 25 club members}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Python, Java, HTML/CSS} \\
+    \textbf{Tools}{: Git, GitHub, Microsoft Excel, Google Workspace} \\
+    \textbf{Libraries}{: pandas, Matplotlib}
+  }}
+\end{itemize}
+
+\end{document}
