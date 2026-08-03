@@ -64,6 +64,18 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+% Input private contact info from seperate hidden file
+\input{contact-info.tex}
+
+% --- THE SWITCH ---
+\newtoggle{publicversion}
+\ifdefined\PUBLICVERSION
+  \toggletrue{publicversion}
+\else
+  \togglefalse{publicversion}
+\fi
+% ------------------
+
 \begin{document}
 
 % This banner makes it impossible to mistake the resource for a real person.
@@ -73,11 +85,19 @@
 \vspace{-9pt}
 
 \begin{center}
-  \textbf{\Huge \scshape Alex Carter} \\ \vspace{1pt}
-  \small (000) 000-0000 $|$
-  \href{mailto:alex.carter@email.com}{\underline{alex.carter@email.com}} $|$
-  \href{https://linkedin.com/in/alexcarter}{\underline{linkedin.com/in/alexcarter}} $|$
-  \href{https://github.com/alexcarter}{\underline{github.com/alexcarter}}
+  \textbf{\Huge \scshape Andrew Seiverth} \\ \vspace{1pt}
+  \small
+  \iftoggle{publicversion}
+    {
+      \href{https://\linkedinurl}{\underline{\linkedinurl}} $|$
+      \href{https://github.com/andrewseiverth}{\underline{github.com/andrewseiverth}}
+    }
+    {
+      \phone $|$
+      \href{mailto:\email}{\underline{\email}} $|$
+      \href{https://\linkedinurl}{\underline{\linkedinurl}} $|$
+      \href{https://github.com/andrewseiverth}{\underline{github.com/andrewseiverth}}
+    }
 \end{center}
 
 \section{Education}

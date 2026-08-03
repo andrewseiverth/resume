@@ -1,0 +1,16 @@
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Private resume
+main.pdf
+contact-info.tex
+
+# Optional
+*.swp
+.DS_Store
