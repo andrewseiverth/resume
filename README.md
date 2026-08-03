@@ -14,7 +14,8 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 3. get better at vscode
 4. learn some LaTex
 5. learn how to leverage these tools and others to create cool stuff
-6. get a job
+6. create a resume
+7. get a job
 
 ## cloning
 _coming soon!_
