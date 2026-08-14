@@ -16,6 +16,7 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
+\usepackage{verbatim}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -78,21 +79,18 @@
 
 \begin{document}
 
-% This banner makes it impossible to mistake the resource for a real person.
 \begin{center}
-  \small\textbf{SAMPLE COLLEGE FRESHMAN RESUME}
-\end{center}
-\vspace{-9pt}
-
-\begin{center}
-  \textbf{\Huge \scshape Andrew Seiverth} \\ \vspace{1pt}
+  \textbf{\Huge \scshape Andrew Seiverth} \\ \vspace{10pt}
   \small
   \iftoggle{publicversion}
+    % placeholder content
     {
       (555) 123-4567 $|$
+      \href{mailto:me@email.com}{\underline{me@email.com}} $|$
       \href{https://www.\linkedin}{\underline{\linkedin}} $|$
       \href{https://github.com/\github}{\underline{\github}}
     }
+    % the real stuff is inserted here at build when needed
     {
       {\phone} $|$
       \href{mailto:\email}{\underline{\email}} $|$
@@ -104,35 +102,39 @@
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Georgia Institute of Technology}{Atlanta, GA}
-    {Bachelor of Science in Computer Science; GPA: 3.7/4.0}{Aug. 2026 -- May 2030}
+    {The Ohio State University}{Columbus, OH}
+    {Bachelor of Science in Electrical and Computer Engineering}{Aug. 2026 -- May 2030}
   \resumeItemListStart
-    \resumeItem{Relevant Coursework: Introduction to Computing, Calculus I}
+    \resumeItem{Relevant Coursework: Honors Introduction to Engineering, Engineering Math A, Physics II}
   \resumeItemListEnd
   \resumeSubheading
-    {Northview High School}{Johns Creek, GA}
-    {High School Diploma; GPA: 3.8/4.0}{Aug. 2022 -- May 2026}
+    {Perrysburg High School}{Perrysburg, OH}
+    {High School Honors Diploma; GPA: 3.9/4.0 unweighted}{Aug. 2022 -- May 2026}
+  \resumeItemListStart
+    \resumeItem{Relevant Coursework: AP Chemistry, AP Calculus BC, AP Physics C: Mechanics}
+  \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \section{Experience}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Grocery Associate}{June 2025 -- Aug. 2026}
-    {Fresh Market Grocery}{Johns Creek, GA}
+    {Head Lifeguard}{May 2026 -- Current}
+    {Fort Meigs YMCA}{Perrysburg, OH}
   \resumeItemListStart
-    \resumeItem{Assisted 50+ customers per shift while restocking products and maintaining accurate shelf labels}
-    \resumeItem{Trained 3 new employees on checkout procedures, store organization, and customer service standards}
+    \resumeItem{Led and supported a team of 10+ lifeguards, front desk receptionists, and concessions employees to ensure safe and effective operation of large city pool in addition to normal lifeguarding responsibilities.}
+    \resumeItem{Managed hundreds of dollars of pool revenue daily}
   \resumeItemListEnd
 
   \resumeSubheading
-    {Volunteer Tutor}{Sep. 2024 -- May 2026}
-    {Northview Peer Tutoring Program}{Johns Creek, GA}
+    {Lifeguard}{May 2024 -- May 2026}
+    {Fort Meigs YMCA}{Perrysburg, OH}
   \resumeItemListStart
-    \resumeItem{Tutored 8 students in Algebra and Precalculus through weekly one-on-one review sessions}
-    \resumeItem{Created practice worksheets that helped students prepare for quizzes and semester exams}
+    \resumeItem{Obtained and maintained American Red Cross Lifeguarding with CPR/AED for Professional Rescuers, First Aid, and Administering Emergency Oxygen Certification}
+    \resumeItem{Ensured pool patron safety through vigilant surveillance and swift emergency response, successfully conducting multiple rescues and enforcing safety protocols}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
 
+\begin{comment}
 \section{Projects}
 \resumeSubHeadingListStart
   \resumeProjectHeading
@@ -148,30 +150,32 @@
     \resumeItem{Designed and published a responsive website featuring projects, campus involvement, and contact information}
   \resumeItemListEnd
 \resumeSubHeadingListEnd
+\end{comment}
 
 \section{Leadership \& Involvement}
 \resumeSubHeadingListStart
+  \resumeSubheading
+    {Captain}{Nov. 2024 -- Feburary 2026}
+    {Perrysburg High School Swim \& Dive Team}{Perrysburg, OH}
+  \resumeItemListStart
+    \resumeItem{Managed a \$600 annual budget and organized purchasing for 4 workshops serving 25 club members}
+  \resumeItemListEnd
+
+  \begin{comment}
   \resumeSubheading
     {Member}{Aug. 2026 -- Present}
     {Georgia Tech Data Science Club}{Atlanta, GA}
   \resumeItemListStart
     \resumeItem{Attend technical workshops and collaborate with other students on beginner data-analysis activities}
   \resumeItemListEnd
-
-  \resumeSubheading
-    {Treasurer}{Aug. 2025 -- May 2026}
-    {Northview Coding Club}{Johns Creek, GA}
-  \resumeItemListStart
-    \resumeItem{Managed a \$600 annual budget and organized purchasing for 4 workshops serving 25 club members}
-  \resumeItemListEnd
+  \end{comment}
 \resumeSubHeadingListEnd
 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
-    \textbf{Languages}{: Python, Java, HTML/CSS} \\
-    \textbf{Tools}{: Git, GitHub, Microsoft Excel, Google Workspace} \\
-    \textbf{Libraries}{: pandas, Matplotlib}
+    \textbf{Languages}{: Python, C/C++, MATLAB} \\
+    \textbf{Tools}{: Git, GitHub, Microsoft Excel, Microsoft Office, MATLAB} \\
   }}
 \end{itemize}
 
