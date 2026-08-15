@@ -18,11 +18,6 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 6. create a resume
 7. get a job
 
-## Preview
-<object data="/resume-public.pdf" type="application/pdf" width="100%" height="500px">
-    <p>Your browser does not support PDFs. <a href="hhttps://github.com/andrewseiverth/resume/blob/main/resume-public.pdf">Download the PDF</a> instead.</p>
-</object>
-
 ## Build Instructions
 1. [Install LaTex](https://en.wikibooks.org/wiki/LaTeX/Installation)
 2. Clone the repository
