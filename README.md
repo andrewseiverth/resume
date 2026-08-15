@@ -19,7 +19,7 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 7. get a job
 
 ## Preview
-<object data="resume-public.pdf" type="application/pdf" width="100%" height="500px">
+<object data="/resume-public.pdf" type="application/pdf" width="100%" height="500px">
     <p>Your browser does not support PDFs. <a href="hhttps://github.com/andrewseiverth/resume/blob/main/resume-public.pdf">Download the PDF</a> instead.</p>
 </object>
 
