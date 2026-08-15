@@ -3,7 +3,10 @@ my resume (almost, not quite yet)
 
 ## notice
 this is still a work in progress. Sections will be reworded or added, but everything on here should be accurate.
-(phone and email are not however)
+(phone and email are not in public pdf however)
+
+## Preview
+[![Resume Screenshot](/resume-preview.jpeg)](https://github.com/andrewseiverth/resume/blob/main/resume-public.pdf)
 
 ## credit
 I got the template from here. I will try to find more info about it later, but for now, here's this link
@@ -23,4 +26,9 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 2. Clone the repository
 ```git clone https://github.com/andrewseiverth/resume```
 3. Create contact-info.tex. Copy the contents of contact-info.tex.example and replace with your information as appropriate
-4. Build with ```pdflatex resume.tex```. If you want a version without your private contact info (phone # and email), build with ```pdflatex resume-public.tex```
+4. Build with ```pdflatex resume.tex```.
+
+### Optional
+If you want a version without your private contact info (phone # and email) to publish online, build with ```pdflatex resume-public.tex```
+
+To generate preview image for README.md, I recommend installing [ImageMagick](https://imagemagick.org/download/#gsc.tab=0). Then run ```magick -density 300 resume-public.pdf -quality 95 resume-preview.jpeg```
