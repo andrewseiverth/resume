@@ -1,5 +1,6 @@
 % example of contact-info.tex with placeholder content
 
 \newcommand{\phone}{(555) 123-4567 }
-\newcommand{\email}{andrew@email.com}
-\newcommand{\linkedinurl}{linkedin.com/in/andrew...}
+\newcommand{\email}{you@email.com}
+\newcommand{\linkedinurl}{linkedin.com/in/you...}
+\newcommand{\github}{github.com/you}

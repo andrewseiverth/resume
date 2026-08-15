@@ -2,7 +2,8 @@
 my resume (almost, not quite yet)
 
 ## notice
-**be aware!** everything on here atm is basically filler stuff from the template (it's not actually my accomplishments yet). this is a work in progress. I will be updating it later (continously)
+this is still a work in progress. Sections will be reworded or added, but everything on here should be accurate
+(phone and email are not)
 
 ## credit
 I got the template from here. I will try to find more info about it later, but for now, here's this link
@@ -17,5 +18,9 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 6. create a resume
 7. get a job
 
-## cloning
-_coming soon!_
+## Build Instructions
+1. [Install LaTex](https://en.wikibooks.org/wiki/LaTeX/Installation)
+2. Clone the repository
+```git clone https://github.com/andrewseiverth/resume```
+3. Create contact-info.tex. Copy the contents of contact-info.tex.example and replace with your information as appropriate
+4. Build with ```pdflatex resume.tex```. If you want a version without your private contact info (phone # and email), build with ```pdflatex resume-public.tex```
