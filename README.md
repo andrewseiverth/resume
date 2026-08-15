@@ -2,8 +2,8 @@
 my resume (almost, not quite yet)
 
 ## notice
-this is still a work in progress. Sections will be reworded or added, but everything on here should be accurate
-(phone and email are not)
+this is still a work in progress. Sections will be reworded or added, but everything on here should be accurate.
+(phone and email are not however)
 
 ## credit
 I got the template from here. I will try to find more info about it later, but for now, here's this link
@@ -17,6 +17,11 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 5. learn how to leverage these tools and others to create cool stuff
 6. create a resume
 7. get a job
+
+## Preview
+<object data="resume-public.pdf" type="application/pdf" width="100%" height="500px">
+    <p>Your browser does not support PDFs. <a href="hhttps://github.com/andrewseiverth/resume/blob/main/resume-public.pdf">Download the PDF</a> instead.</p>
+</object>
 
 ## Build Instructions
 1. [Install LaTex](https://en.wikibooks.org/wiki/LaTeX/Installation)
