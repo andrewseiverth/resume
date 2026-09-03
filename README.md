@@ -29,6 +29,6 @@ https://www.overleaf.com/project/6a6f8afa1786b77869d3e368
 4. Build with ```pdflatex resume.tex```.
 
 ### Optional
-If you want a version without your private contact info (phone # and email) to publish online, build with ```pdflatex resume-public.tex```
+If you want a version without your private contact info (phone # and email) to publish online (perhaps in your GitHub repo), build with ```pdflatex resume-public.tex```
 
-To generate preview image for README.md, I recommend installing [ImageMagick](https://imagemagick.org/download/#gsc.tab=0). Then run ```magick -density 300 resume-public.pdf -quality 95 resume-preview.jpeg```
+To generate a preview image for README.md, I recommend first installing [ImageMagick](https://imagemagick.org/download/#gsc.tab=0). Then run ```magick -density 300 resume-public.pdf -quality 95 resume-preview.jpeg```
