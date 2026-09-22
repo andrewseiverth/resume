@@ -79,7 +79,10 @@
 
 \begin{document}
 
-\begin{center}
+\begin{comment}
+  linkedin and github left off for now until more professional?
+
+  \begin{center}
   \textbf{\Huge \scshape Andrew Seiverth} \\ \vspace{10pt}
   \small
   \iftoggle{publicversion}
@@ -96,6 +99,22 @@
       \href{mailto:\email}{\underline{\email}} $|$
       \href{https://www.\linkedin}{\underline{\linkedin}} $|$
       \href{https://\github}{\underline{\github}}
+    }
+\end{center}
+\end{comment}
+\begin{center}
+  \textbf{\Huge \scshape Andrew Seiverth} \\ \vspace{10pt}
+  \small
+  \iftoggle{publicversion}
+    % placeholder content
+    {
+      (555) 123-4567 $|$
+      \href{mailto:me@email.com}{\underline{me@email.com}} $|$
+    }
+    % the real stuff is inserted here at build when needed
+    {
+      {\phone} $|$
+      \href{mailto:\email}{\underline{\email}} $|$
     }
 \end{center}
 
